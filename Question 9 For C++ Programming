@@ -1,4 +1,4 @@
-Program to find all elements in array of integers which have at-least two greater elements in C++
+Write a C++ Program to find all elements in array of integers which have at-least two greater elements in C++
 
 
 #include<bits/stdc++.h>
