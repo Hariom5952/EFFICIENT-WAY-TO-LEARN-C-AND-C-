@@ -1,4 +1,4 @@
-Program to convert Celsius to Fahrenheit in C++
+Write a Program to convert Celsius to Fahrenheit in C++
 
 
 #include <iostream>
