@@ -1,0 +1,21 @@
+Q3) Write a program in C to display the multiplication table of a given integer.
+Test Data :
+Input the number (Table to be calculated) : 15
+Expected Output :
+15 X 1 = 15
+...
+...
+15 X 10 = 150
+
+#include <stdio.h>
+void main()
+{
+   int j,n;
+   printf("Input the number (Table to be calculated) : ");
+   scanf("%d",&n);
+   printf("\n");
+   for(j=1;j<=10;j++)
+   {
+     printf("%d X %d = %d \n",n,j,n*j);
+   }
+} 
