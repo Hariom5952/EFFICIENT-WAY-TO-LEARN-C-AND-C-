@@ -1,4 +1,4 @@
-Program to convert decimal to binary in C++
+Write a C++ Program to convert decimal to binary in C++
 
 
 #include <iostream>
