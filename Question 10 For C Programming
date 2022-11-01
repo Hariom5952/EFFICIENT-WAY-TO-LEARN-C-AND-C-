@@ -1,0 +1,30 @@
+Q10) Write a program in C to Print Fibonacci Series using recursion. 
+Test Data :
+Input number of terms for the Series (< 20) : 10
+Expected Output:
+ Input number of terms for the Series (< 20) : 10                                
+ The Series are :                                                                
+ 1  1  2  3  5  8  13  21  34  55
+ 
+ 
+#include<stdio.h>
+int term;
+int fibonacci( int num);
+ 
+void main() 
+{
+   static int num = 1;
+   printf(" Input number of terms for the Series (< 20) : ");
+   scanf("%d", &n);
+ printf(" The Series are :\n"); 
+   printf(" 1  ");
+   fibonacci( num);
+    printf("\n\n");
+}
+ 
+int fibonacci(int num)
+{
+    if (n <= 1)
+        return n;
+    return fib(n - 1) + fib(n - 2);
+}
